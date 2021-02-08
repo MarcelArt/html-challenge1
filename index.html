@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="styles.css" />
+		<link
+			href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+			rel="stylesheet"
+		/>
+		<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+		
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+	</head>
+	<body>
+    <div class="container">
+      <div class="mdc-card card">
+        <img class="thumb" src="./resources/cliff.jpeg" />
+        <div class="content">
+          <h3 class="title">Top Winter Locations</h3>
+          <p class="subtitle">More than 200 locations</p>
+          <p class="content">
+            Cards provide context and an entry point to more robust information
+            and views, and their content and quantity can vary greatly.
+          </p>
+          <div class="action">
+            <button class="mdc-button mdc-card__action mdc-card__action--button">
+              <span class="mdc_button__riple"></span>
+              <span class="mdc-button__label">SHARE</span>
+            </button>
+            <button class="mdc-button mdc-card__action mdc-card__action--button" onclick="explore1()">
+              <span class="mdc_button__riple"></span>
+              <span class="mdc-button__label">EXPLORE</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="mdc-card card">
+        <img class="thumb" src="./resources/road.jpg" />
+        <div class="content">
+          <h3 class="title">Top eastern road trips</h3>
+          <p class="subtitle">2,000 miles of wonder</p>
+          <p class="content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac cursus erat. Quisque a mauris dui. In lorem nisi, volutpat quis fringilla at, fermentum in sem.
+          </p>
+          <div class="action">
+            <button class="mdc-button mdc-card__action mdc-card__action--button">
+              <span class="mdc_button__riple"></span>
+              <span class="mdc-button__label">SHARE</span>
+            </button>
+            <button class="mdc-button mdc-card__action mdc-card__action--button" onclick="explore2()">
+              <span class="mdc_button__riple"></span>
+              <span class="mdc-button__label">EXPLORE</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="mdc-card card">
+        <div class="header">
+          <img class="avatar" src="./resources/146686.jpg">
+          <div style="display: flex; flex-direction: column;">
+            <p class="title">Marcel</p>
+            <p class="subtitle">20 mins, ago</p>
+          </div>
+        </div>
+        <img class="thumb" src="./resources/15250-landscape-bass-lake-ca-sm-byc-2-Header-1400x612.jpg" />
+        <div class="content">
+          <h3 class="title">Kangaroo Valley Safari</h3>
+          <p class="subtitle">Free on thursday</p>
+          <p class="content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac cursus erat. Quisque a mauris dui. In lorem nisi, volutpat quis fringilla at, fermentum in sem.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mdc-card card">
+      <img class="thumb" src="./resources/road.jpg" />
+      <div class="action-footer">
+        <i class="material-icons-outlined">location_on</i>
+        <i class="material-icons">bookmark</i>
+        <i class="material-icons">favorite</i>
+      </div>
+    </div>
+  </div>
+    <script>
+      function explore1() {
+        alert('Cards provide context and an entry point to more robust information and views, and their content and quantity can vary greatly.');
+      }
+
+      function explore2() {
+        alert('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac cursus erat. Quisque a mauris dui. In lorem nisi, volutpat quis fringilla at, fermentum in sem.');
+      }
+    </script>
+	</body>
+</html>
